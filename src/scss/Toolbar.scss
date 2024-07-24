@@ -1,0 +1,40 @@
+.toolbar {
+    display: flex;
+    z-index: 1000;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #5885b6, #1b1a1b); 
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(233, 13, 13, 0.1); 
+    backdrop-filter: blur(50px); 
+}
+  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+  
+.navigation button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.navigation button:hover {
+    background-color: #e9ecef;
+}
+  
+.navigation .fas {
+    font-size: 18px;
+}
